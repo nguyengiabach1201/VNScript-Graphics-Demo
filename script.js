@@ -101,7 +101,7 @@ vnscript(`
       ball3X += ball3XDirection;
 
       // Check if ball hits the left or right edge of the window
-      if (ball3X < 0 || ballX > window.innerWidth - 50) {
+      if (ball3X < 0 || ball3X > window.innerWidth - 50) {
         ball3XDirection *= -1; // Reverse the ball's horizontal direction
       }
 
